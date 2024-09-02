@@ -148,3 +148,34 @@ nav {
 .author-container p {
   font-weight: bold;
 }
+
+.section3 {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.cta-container {
+  width: 40%;
+  border-radius: .3rem;
+  margin: 2rem auto;
+  padding: .5rem 1rem;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text > h3 {
+  font-size: 1.4rem;
+}
+.text > p {
+  font-size: .7rem;
+}
+
+.signup-btn {
+  all: unset;
+  border: 1px solid white;
+  padding: .2rem .5rem;
+}
