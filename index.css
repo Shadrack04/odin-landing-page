@@ -23,6 +23,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #1f2937;
+  z-index: 100;
 }
 
 .logo-container p {
@@ -178,4 +182,13 @@ nav {
   all: unset;
   border: 1px solid white;
   padding: .2rem .5rem;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
