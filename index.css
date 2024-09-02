@@ -79,3 +79,43 @@ nav {
   align-items: center;
   justify-content: center;
 }
+.section1 {
+  height: 10rem;
+  width: 60%;
+  margin: .5rem auto;
+}
+.section1-title {
+  display: flex;
+  justify-content: center;
+  font-size: .7rem;
+}
+.section1-title h2 {
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+
+}
+.card {
+  width: 5rem;
+  
+}
+
+.card-box {
+  width: 4rem;
+  height: 4rem;
+  border: .1rem solid rgba(0, 0, 255, 0.441);
+  border-radius: .5rem;
+}
+
+.card p {
+  width: 3.5rem;
+  font-size: .4rem;
+  text-align: center;
+}
