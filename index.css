@@ -25,6 +25,10 @@ nav {
   justify-content: space-between;
 }
 
+.logo-container p {
+  color: #f9faf8;
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -45,7 +49,6 @@ nav {
 }
 
 .hero-left-title {
-  border: 2px solid red;
   width: 70%;
 }
 .hero-left-title h1 {
@@ -54,17 +57,24 @@ nav {
 .hero-left-text {
   width: 90%;
   color: #e5e7eb;
-  border: 2px solid blue;
 }
 .hero-left-text p {
   font-size: .9rem;
+}
+
+.btn {
+  margin: .5rem 0;
+  all: unset;
+  padding: .1rem 1rem;
+  border-radius: .2rem;
+  background-color: #3882f6;
 }
 
 .hero-right {
   flex: 1;
   width: 10rem;
   height: 10rem;
-  border: 2px solid red;
+  background-color: gray;
   display: flex;
   align-items: center;
   justify-content: center;
