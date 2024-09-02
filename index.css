@@ -125,13 +125,26 @@ nav {
   margin: .5rem auto;
 
   background-color: #e5e7eb;
-  height: 7rem;
+  height: 10rem;
   display: flex;
   align-items: center;
 }
 .section2 > div {
   width: 40%;
   margin: .5rem auto;
-  border: 1px solid red;
+  
+}
+.quote-container {
+  width: 80%;
+}
+.quote-container p {
   font-style: italic;
+}
+.author-container {
+  display: flex;
+  justify-content: end;
+}
+
+.author-container p {
+  font-weight: bold;
 }
